@@ -40,9 +40,9 @@ var advanceTo = function(s) {
 //We've created multiple story arces with multiple endings for this game. Please note this can be easily extended and changed if needed by other people. This is pratically a template for any text adventure made in HTML5 and JS. The current setup has 4 different endings completely!
 scenario = {};
 var scenario = {
-  one: {
+   one: {
     image: 'platzhalter.png', // IntroFirst situation, picture of teacher
-    text: "Begib dich auf eine Reis zurück ins 14. Jahrhundert und stelle dein Wissen unter Beweis. Stelle dich einem Abendteuer! Verrätst du uns noch deinen Namen? Das Abenteuer beginnt, sobald du Enter drückst!",
+    text: "Bist du bereit dich einem Abenteuer zu stellen? Begib dich auf eine Reis zurück ins 14. Jahrhundert und stelle dein Wissen unter Beweis. Die Pest ist über dein Dorf herreingebrochen und du siehst dich mit diversen Entscheidungen konfrontiert um dich und deine Familie sicher durch diese Zeit zu bringen. Bevor wir die Zeitreise starten, verrätst du uns noch deinen Namen? Das Abenteuer beginnt, sobald du Enter drückst!",
   },
   two: {
     image: 'platzhalter.png', //This is the classroom. The first choice you will have to make in this game.
