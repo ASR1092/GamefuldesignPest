@@ -260,6 +260,18 @@
     background-color: #90a1b3; 
   }
 
+.students {
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: cabin, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  padding-top: 5px;
+  padding-right:10px;
+  padding-left:10px;
+}
+
 .fusszeile      { 
 	position: relative; 
 	padding: .5rem 0; 
