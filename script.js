@@ -40,15 +40,14 @@ var advanceTo = function(s) {
 //We've created multiple story arces with multiple endings for this game. Please note this can be easily extended and changed if needed by other people. This is pratically a template for any text adventure made in HTML5 and JS. The current setup has 4 different endings completely!
 scenario = {};
 var scenario = {
-   one: {
+  one: {
     image: 'platzhalter.png', // IntroFirst situation, picture of teacher
     text: "Bist du bereit dich einem Abenteuer zu stellen? Begib dich auf eine Reis zurück ins 14. Jahrhundert und stelle dein Wissen unter Beweis. Die Pest ist über dein Dorf herreingebrochen und du siehst dich mit diversen Entscheidungen konfrontiert um dich und deine Familie sicher durch diese Zeit zu bringen. Bevor wir die Zeitreise starten, verrätst du uns noch deinen Namen? Das Abenteuer beginnt, sobald du Enter drückst!",
   },
   two: {
     image: 'platzhalter.png', //This is the classroom. The first choice you will have to make in this game.
     text: "NAME, Stell’ dir vor, wir haben das Jahr 1348 und die Pest fängt gerade an, sich in Europa auszubreiten. Du kommst mit deiner Familie in Europa an, und versuchst deine Liebsten bestmöglich vor einer Infektion zu schützen. Ihr wollt euch hier sesshaft machen, doch es ist noch unklar, wo genau ihr eure neue Heimat wählt. Wo würdest du zur Zeit der Pest am liebsten leben?",
-    buttons: [["In einer Hafenstadt", "advanceTo(scenario.twelve)",5],["In einer Handelsstadt", "advanceTo(scenario.twenty)"],["Auf einem Schiff", "advanceTo(scenario.fourtytwo)"],["Abgelegen in den Bergen", "advanceTo(scenario.three)"]],
-    life: 10
+    buttons: [["In einer Hafenstadt", "advanceTo(scenario.twelve)"],["In einer Handelsstadt", "advanceTo(scenario.twenty)"],["Auf einem Schiff", "advanceTo(scenario.fourtytwo)"],["Abgelegen in den Bergen", "advanceTo(scenario.three)"]],
   },
   three: {
     image: 'platzhalter.png',
@@ -61,7 +60,7 @@ var scenario = {
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyseven)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
   five: {
-    image: 'platzhalter.png',
+    image: 'abstand.png',
     text: "Totengräber, NAME! Das war wahrscheinlich einer der sichersten Berufe der Zeit. Flöhe kamen auf den Verstorbenen nicht mehr vor. Wenn die Körpertemperatur nach dem Tod sinkt, gefällt es auch dem Floh nicht mehr und er sucht sich einen neuen Wirt. Wenn man sich auch von den infizierten Körperflüssigkeiten ferngehalten hat, konnte eigentlich bei der Arbeit nichts passieren. Nach einiger Zeit in deinem Beruf, bekommst du zu hören, dass sich die Pest mittlerweile auch in dem kleinen Dorf, abgelegen in den Bergen, neben deinem Haus ausgebreitet hat. Deine Familie fürchtet sich davor, ebenfalls angesteckt zu werden.Wie könntest du dich vor einer Ansteckung der Pest schützen?",
     buttons: [["Abstand halten", "advanceTo(scenario.fourteen)"],["Maske tragen", "advanceTo(scenario.six)"],["Tiere streicheln", "advanceTo(scenario.twentynine)"],["Gewand nicht wechseln", "advanceTo(scenario.thirtyone)"]]
   },
@@ -101,7 +100,7 @@ var scenario = {
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyseven)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
   thirteen: {
-    image: 'platzhalter.png',
+    image: 'abstand.png',
     text: "Da muss dir wohl etwas engangen sein. Seemann ist keine gute Wahl. Mit vielen anderen Männern unter schlechten Hygienebedingungen auf engem Raum zu leben, sowie unzählige Ratten machen das Arbeiten auf einem Schiff zu einer schlechten Wahl. Man lebte unter Bedingungen die optimal für eine Verbreitung der Pest ware. Nach einiger Zeit, bekommst du auch noch zu hören, dass sich die Pest mittlerweile weiter ausgebreitet hat. Deine Familie fürchtet sich davor, ebenfalls angesteckt zu werden. Wie könntest du dich vor einer Ansteckung der Pest schützen?", 
     buttons: [["Abstand halten", "advanceTo(scenario.fourteen)"],["Maske tragen", "advanceTo(scenario.six)"],["Tiere streicheln", "advanceTo(scenario.twentynine)"],["Gewand nicht wechseln", "advanceTo(scenario.thirtyone)"]]
   },
@@ -141,7 +140,7 @@ var scenario = {
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyone)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
   twentyone: {
-    image: 'platzhalter.png',
+    image: 'abstand.png',
     text: "Es schein, als hättest du nicht nur bei deinem Wohnort eine falsche Entscheidung getroffen. Geistliche hatten während der Zeit der Pest keine angenehme Arbeit. Menschenversammlungen in der Kirche waren Gang und Gebe. Kranken Menschen die Sterbesakramente zu geben stellte ebenfalls eine erhöhte Infektionsgefahr da. Nach einiger Zeit in deinem Beruf, bekommst du zu hören, dass sich die Pest mittlerweile auch in dem kleinen Dorf neben deinem Haus ausgebreitet hat. Deine Familie fürchtet sich davor, ebenfalls angesteckt zu werden. Wie könntest du dich vor einer Ansteckung der Pest schützen?",
     buttons: [["Abstand halten", "advanceTo(scenario.fourteen)"],["Maske tragen", "advanceTo(scenario.twentytwo)"],["Tiere streicheln", "advanceTo(scenario.twentynine)"],["Gewand nicht wechseln", "advanceTo(scenario.thirtyone)"]]
   },
@@ -171,12 +170,12 @@ var scenario = {
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyseven)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
   twentyseven: {
-    image: 'platzhalter.png',
+    image:'abstand.png',
     text: "Geistliche hatten während der Zeit der Pest keine angenehme Arbeit. Menschenversammlungen in der Kirche waren Gang und Gebe. Kranken Menschen die Sterbesakramente zu geben stellte ebenfalls eine erhöhte Infektionsgefahr da. Sei daher auf der Hut, um dich nicht zu infizieren! Nach einiger Zeit in deinem Beruf, bekommst du zu hören, dass sich die Pest mittlerweile auch in dem kleinen Dorf neben deinem Haus ausgebreitet hat. Deine Familie fürchtet sich davor, ebenfalls angesteckt zu werden. Wie könntest du dich vor einer Ansteckung der Pest schützen?",
     buttons: [["Abstand halten", "advanceTo(scenario.fourteen)"],["Maske tragen", "advanceTo(scenario.twentytwo)"],["Tiere streicheln", "advanceTo(scenario.twentynine)"],["Gewand nicht wechseln", "advanceTo(scenario.thirtyone)"]]
   },
   twentyeight: {
-    image: 'platzhalter.png',
+    image:'abstand.png',
     text: "Fahrender Händler, NAME! Als Händler nicht an einen Ort gebunden zu sein, war sicher gut. Ob viele Händler überlebt haben, ist nicht bekannt. Nach einiger Zeit in deinem Beruf, bekommst du zu hören, dass sich die Pest mittlerweile auch in dem kleinen Dorf, abgelegen in den Bergen, neben deinem Haus ausgebreitet hat. Deine Familie fürchtet sich davor, ebenfalls angesteckt zu werden. Wie könntest du dich vor einer Ansteckung der Pest schützen?",
     buttons: [["Abstand halten", "advanceTo(scenario.fourteen)"],["Maske tragen", "advanceTo(scenario.six)"],["Tiere streicheln", "advanceTo(scenario.twentynine)"],["Gewand nicht wechseln", "advanceTo(scenario.thirtyone)"]]
   },
