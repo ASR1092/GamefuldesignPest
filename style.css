@@ -250,6 +250,14 @@
 .orangeback{
   background-color: #708090;
 }
+.orangeback-light{
+    position: relative; 
+    padding: .5rem 0; 
+    color: #fff; 
+    font-size: 1rem; 
+    text-align: center; 
+    background-color: #90a1b3; 
+  }
 
 .fusszeile      { 
 	position: relative; 
