@@ -55,7 +55,7 @@ var scenario = {
     buttons: [["Ja", "advanceTo(scenario.four)"], ["Nein", "advanceTo(scenario.thirtynine)"]]
   },
   four: {
-    image: 'platzhalter.png',
+    image: 'kreuz.png',
     text: "Du entscheidest dich, ein Haus in den Bergen, abseits von einem kleinen Dorf als neue Heimat zu wählen. Je abgelegener desto besser, hier wird die Pest hoffentlich nicht herfinden! Um deine Familie erhalten zu können, musst du natürlich auch etwas Geld verdienen, dazu suchst du dir am besten einen passenden Beruf!Welchen Beruf würdest du zur Zeit der Pest wählen?",
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyseven)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
@@ -95,7 +95,7 @@ var scenario = {
     buttons: [["Noch einmal spielen", "advanceTo(scenario.two)"]]
   },
   twelve: {
-    image: 'platzhalter.png',
+    image: 'kreuz.png',
     text: "Mit einer Wohnung am Hafen hat man einen tollen Meerblick. Jedoch sind sie nicht der beste Wohnort zu Zeit der Pest. Du musst daher ab jetzt besonders auf der Hut sein, um dich nicht anzustecken! Um deine Familie erhalten zu können, musst du natürlich auch etwas Geld verdienen, dazu suchst du dir am besten einen passenden Beruf! Aber Achtung, nur weil deine Wohnung nah am Hafen liegt, solltest du nicht unbedingt einen maritinen Beruf ergreifen. Welchen Beruf würdest du zur Zeit der Pest wählen?",
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyseven)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
@@ -135,7 +135,7 @@ var scenario = {
     buttons: [["Kind", "advanceTo(scenario.fourtythree)"],["Jugendlicher", "advanceTo(scenario.fourtyfour)"],["Erwachsener", "advanceTo(scenario.fourtyfive)"]]
   },
   twenty: {
-    image: 'platzhalter.png',
+    image: 'kreuz.png',
     text: "Da sich in Handelsstädten viele Menschen aus den verschiedensten Regionen aufhielten, gab es eine hohe Wahrscheinlichkeit, dass die Pest eingeschleppt wurde. Daher ist dies keine gute Wahl. Sei daher ab jetzt besonders vorsichtig! Um deine Familie erhalten zu können, musst du natürlich auch etwas Geld verdienen, dazu suchst du dir am besten einen passenden Beruf! Welchen Beruf würdest du zur Zeit der Pest wählen?",
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyone)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
@@ -165,7 +165,7 @@ var scenario = {
     buttons: [["Ratte", "advanceTo(scenario.nineteen)"],["Katze", "advanceTo(scenario.thirtyeight)"],["Kein Haustier", "advanceTo(scenario.eightteen)"],["Hund", "advanceTo(scenario.thirtyseven)"]]
   },
   twentysix: {
-    image: 'platzhalter.png',
+    image: 'kreuz.png',
     text: "Leider konnte man der Pest damals auch nicht entkommen. Gib nicht auf! Du entscheidest dich, ein Haus in den Bergen, abseits von einem kleinen Dorf als neue Heimat zu wählen. Je abgelegener desto besser, hier wird die Pest hoffentlich nicht herfinden! Um deine Familie erhalten zu können, musst du natürlich auch etwas Geld verdienen, dazu suchst du dir am besten einen passenden Beruf! Welchen Beruf würdest du zur Zeit der Pest wählen?",
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyseven)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
@@ -245,7 +245,7 @@ var scenario = {
     buttons: [["Häuser ausräuchern", "advanceTo(scenario.thirtysix)"],["Quarantäne", "advanceTo(scenario.nine)"],["Bußprozessionen", "advanceTo(scenario.seventeen)"]]
   },
   fourtytwo: {
-    image: 'platzhalter.png',
+    image: 'kreuz.png',
     text: "Mit vielen anderen Männern unter schlechten Hygienebedingungen auf engem Raum zu leben, sowie unzählige Ratten machen das Leben auf einem Schiff zu einer schlechten Wahl. Um deine Familie erhalten zu können, musst du natürlich auch etwas Geld verdienen, dazu suchst du dir am besten einen passenden Beruf!Welchen Beruf würdest du zur Zeit der Pest wählen?",
     buttons: [["Totengräber", "advanceTo(scenario.five)"],["Seemann", "advanceTo(scenario.thirteen)"],["Geistlicher", "advanceTo(scenario.twentyseven)"],["Fahrender Händler", "advanceTo(scenario.twentyeight)"]]
   },
